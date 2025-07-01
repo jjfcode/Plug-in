@@ -2,7 +2,13 @@ cmake_minimum_required(VERSION 3.15)
 project(FilterVST3 VERSION 1.0.0)
 
 # Set VST3 SDK path
-set(VST3_SDK_ROOT "C:/VST_SDK/vst3sdk")
+if(WIN32)
+    set(VST3_SDK_ROOT "C:/VST_SDK/vst3sdk")
+elseif(APPLE)
+    set(VST3_SDK_ROOT "/Users/${USER}/VST_SDK/vst3sdk")
+else()
+    set(VST3_SDK_ROOT "/usr/local/VST_SDK/vst3sdk")
+endif()
 
 # Add VST3 SDK
 add_subdirectory(${VST3_SDK_ROOT} ${CMAKE_BINARY_DIR}/VST3_SDK)
@@ -23,15 +29,37 @@ target_link_libraries(FilterVST3
 # Set output directory to VST3 folder
 smtg_target_configure_version_file(FilterVST3)
 
-# Installation
-if(SMTG_MAC)
+# Platform-specific settings
+if(APPLE)
+    # Mac-specific settings
+    set(CMAKE_OSX_DEPLOYMENT_TARGET "10.14")
+    set(CMAKE_OSX_ARCHITECTURES "x86_64;arm64")
+    
     smtg_target_set_bundle(FilterVST3
         BUNDLE_IDENTIFIER "com.demo.filtervst3"
         COMPANY_NAME "Demo Company"
     )
-elseif(SMTG_WIN)
+elseif(WIN32)
+    # Windows-specific settings
     target_sources(FilterVST3 PRIVATE resource/FilterVST3.rc)
-endif(SMTG_MAC)
+endif()
+
+# Cross-platform installation paths
+if(APPLE)
+    # Mac installation path
+    set(VST3_INSTALL_PATH "/Library/Audio/Plug-Ins/VST3")
+elseif(WIN32)
+    # Windows installation path
+    set(VST3_INSTALL_PATH "$ENV{USERPROFILE}/AppData/Local/Programs/Common/VST3")
+else()
+    # Linux installation path
+    set(VST3_INSTALL_PATH "/usr/local/lib/vst3")
+endif()
+
+# Install target (optional - build scripts handle installation)
+# install(TARGETS FilterVST3
+#     BUNDLE DESTINATION ${VST3_INSTALL_PATH}
+# )
 
 # Batch file for building the plugin
 file(WRITE "${CMAKE_CURRENT_SOURCE_DIR}/build.bat" "@echo off\n")
