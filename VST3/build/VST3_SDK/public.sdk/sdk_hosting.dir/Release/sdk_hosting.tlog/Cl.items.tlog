@@ -1,0 +1,9 @@
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\connectionproxy.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_hosting.dir\Release\connectionproxy.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\eventlist.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_hosting.dir\Release\eventlist.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\hostclasses.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_hosting.dir\Release\hostclasses.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\module.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_hosting.dir\Release\module.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\parameterchanges.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_hosting.dir\Release\parameterchanges.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\pluginterfacesupport.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_hosting.dir\Release\pluginterfacesupport.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\processdata.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_hosting.dir\Release\processdata.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\utility\stringconvert.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_hosting.dir\Release\stringconvert.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\vstinitiids.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_hosting.dir\Release\vstinitiids.obj

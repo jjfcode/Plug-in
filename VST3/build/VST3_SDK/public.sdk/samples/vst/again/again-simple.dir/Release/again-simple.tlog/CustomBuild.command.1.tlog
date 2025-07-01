@@ -1,0 +1,94 @@
+^C:\VST_SDK\VST3SDK\PUBLIC.SDK\SAMPLES\VST\AGAIN\RESOURCE\AGAIN.UIDESC
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc C:/Code/Plug-in/VST3/build/VST3/Release/again-simple.vst3/Contents/Resources/again.uidesc
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "[SMTG] Copied C:/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/again.uidesc to C:/Code/Plug-in/VST3/build/VST3/Release/again-simple.vst3/Contents/Resources/again.uidesc"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\VST_SDK\VST3SDK\PUBLIC.SDK\SAMPLES\VST\AGAIN\RESOURCE\BACKGROUND.PNG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png C:/Code/Plug-in/VST3/build/VST3/Release/again-simple.vst3/Contents/Resources/background.png
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "[SMTG] Copied C:/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/background.png to C:/Code/Plug-in/VST3/build/VST3/Release/again-simple.vst3/Contents/Resources/background.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\VST_SDK\VST3SDK\PUBLIC.SDK\SAMPLES\VST\AGAIN\RESOURCE\SLIDER_BACKGROUND.PNG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png C:/Code/Plug-in/VST3/build/VST3/Release/again-simple.vst3/Contents/Resources/slider_background.png
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "[SMTG] Copied C:/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_background.png to C:/Code/Plug-in/VST3/build/VST3/Release/again-simple.vst3/Contents/Resources/slider_background.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\VST_SDK\VST3SDK\PUBLIC.SDK\SAMPLES\VST\AGAIN\RESOURCE\SLIDER_HANDLE.PNG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png C:/Code/Plug-in/VST3/build/VST3/Release/again-simple.vst3/Contents/Resources/slider_handle.png
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "[SMTG] Copied C:/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle.png to C:/Code/Plug-in/VST3/build/VST3/Release/again-simple.vst3/Contents/Resources/slider_handle.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\VST_SDK\VST3SDK\PUBLIC.SDK\SAMPLES\VST\AGAIN\RESOURCE\SLIDER_HANDLE_2.0X.PNG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png C:/Code/Plug-in/VST3/build/VST3/Release/again-simple.vst3/Contents/Resources/slider_handle_2.0x.png
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "[SMTG] Copied C:/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/slider_handle_2.0x.png to C:/Code/Plug-in/VST3/build/VST3/Release/again-simple.vst3/Contents/Resources/slider_handle_2.0x.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\VST_SDK\VST3SDK\PUBLIC.SDK\SAMPLES\VST\AGAIN\RESOURCE\VU_ON.PNG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png C:/Code/Plug-in/VST3/build/VST3/Release/again-simple.vst3/Contents/Resources/vu_on.png
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "[SMTG] Copied C:/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_on.png to C:/Code/Plug-in/VST3/build/VST3/Release/again-simple.vst3/Contents/Resources/vu_on.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\VST_SDK\VST3SDK\PUBLIC.SDK\SAMPLES\VST\AGAIN\RESOURCE\VU_OFF.PNG
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png C:/Code/Plug-in/VST3/build/VST3/Release/again-simple.vst3/Contents/Resources/vu_off.png
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo "[SMTG] Copied C:/VST_SDK/vst3sdk/public.sdk/samples/vst/again/resource/vu_off.png to C:/Code/Plug-in/VST3/build/VST3/Release/again-simple.vst3/Contents/Resources/vu_off.png"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\VST_SDK\VST3SDK\PUBLIC.SDK\SAMPLES\VST\AGAIN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Code/Plug-in/VST3 -BC:/Code/Plug-in/VST3/build --check-stamp-file C:/Code/Plug-in/VST3/build/VST3_SDK/public.sdk/samples/vst/again/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

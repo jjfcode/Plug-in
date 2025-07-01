@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\VST_SDK\vst3sdk\public.sdk\source\vst\vstsinglecomponenteffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VST_SDK\vst3sdk\public.sdk\samples\vst\again\source\againsimple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VST_SDK\vst3sdk\public.sdk\source\main\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\VST_SDK\vst3sdk\public.sdk\source\vst\vstsinglecomponenteffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VST_SDK\vst3sdk\public.sdk\samples\vst\again\source\againparamids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VST_SDK\vst3sdk\public.sdk\samples\vst\again\source\againsimple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VST_SDK\vst3sdk\public.sdk\samples\vst\again\source\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VST_SDK\vst3sdk\public.sdk\samples\vst\again\resource\again.uidesc">
+      <Filter>Contents\Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\VST_SDK\vst3sdk\public.sdk\samples\vst\again\resource\background.png">
+      <Filter>Contents\Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\VST_SDK\vst3sdk\public.sdk\samples\vst\again\resource\slider_background.png">
+      <Filter>Contents\Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\VST_SDK\vst3sdk\public.sdk\samples\vst\again\resource\slider_handle.png">
+      <Filter>Contents\Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\VST_SDK\vst3sdk\public.sdk\samples\vst\again\resource\slider_handle_2.0x.png">
+      <Filter>Contents\Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\VST_SDK\vst3sdk\public.sdk\samples\vst\again\resource\vu_on.png">
+      <Filter>Contents\Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\VST_SDK\vst3sdk\public.sdk\samples\vst\again\resource\vu_off.png">
+      <Filter>Contents\Resources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\VST_SDK\vst3sdk\public.sdk\samples\vst\again\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\VST_SDK\vst3sdk\public.sdk\samples\vst\again\resource\again.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{C655A29F-39BB-3722-9B15-78F2421A2072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Resources">
+      <UniqueIdentifier>{09A35BAE-04B6-301C-834F-39490CD9F17F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7EDF1EEB-89E5-3AA4-869A-2AED85EA04D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{35EC58B6-7B19-3E3F-AC15-E8233C38B20E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

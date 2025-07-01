@@ -1,0 +1,9 @@
+C:\VST_SDK\vst3sdk\public.sdk\source\common\commoniids.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_common.dir\Release\commoniids.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\common\commonstringconvert.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_common.dir\Release\commonstringconvert.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\common\openurl.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_common.dir\Release\openurl.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\common\systemclipboard_linux.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_common.dir\Release\systemclipboard_linux.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\common\systemclipboard_win32.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_common.dir\Release\systemclipboard_win32.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\common\threadchecker_linux.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_common.dir\Release\threadchecker_linux.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\common\threadchecker_win32.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_common.dir\Release\threadchecker_win32.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\common\readfile.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_common.dir\Release\readfile.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\vstpresetfile.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk_common.dir\Release\vstpresetfile.obj

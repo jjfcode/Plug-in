@@ -1,0 +1,4 @@
+C:\VST_SDK\vst3sdk\public.sdk\samples\vst-utilities\moduleinfotool\source\main.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\samples\vst-utilities\moduleinfotool\moduleinfotool.dir\Release\main.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\moduleinfo\moduleinfocreator.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\samples\vst-utilities\moduleinfotool\moduleinfotool.dir\Release\moduleinfocreator.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\moduleinfo\moduleinfoparser.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\samples\vst-utilities\moduleinfotool\moduleinfotool.dir\Release\moduleinfoparser.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\hosting\module_win32.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\samples\vst-utilities\moduleinfotool\moduleinfotool.dir\Release\module_win32.obj

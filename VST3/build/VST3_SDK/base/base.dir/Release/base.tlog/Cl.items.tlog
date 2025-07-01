@@ -1,0 +1,11 @@
+C:\VST_SDK\vst3sdk\base\source\baseiids.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\base\base.dir\Release\baseiids.obj
+C:\VST_SDK\vst3sdk\base\source\fbuffer.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\base\base.dir\Release\fbuffer.obj
+C:\VST_SDK\vst3sdk\base\source\fdebug.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\base\base.dir\Release\fdebug.obj
+C:\VST_SDK\vst3sdk\base\source\fdynlib.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\base\base.dir\Release\fdynlib.obj
+C:\VST_SDK\vst3sdk\base\source\fobject.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\base\base.dir\Release\fobject.obj
+C:\VST_SDK\vst3sdk\base\source\fstreamer.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\base\base.dir\Release\fstreamer.obj
+C:\VST_SDK\vst3sdk\base\source\fstring.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\base\base.dir\Release\fstring.obj
+C:\VST_SDK\vst3sdk\base\source\timer.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\base\base.dir\Release\timer.obj
+C:\VST_SDK\vst3sdk\base\source\updatehandler.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\base\base.dir\Release\updatehandler.obj
+C:\VST_SDK\vst3sdk\base\thread\source\fcondition.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\base\base.dir\Release\fcondition.obj
+C:\VST_SDK\vst3sdk\base\thread\source\flock.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\base\base.dir\Release\flock.obj

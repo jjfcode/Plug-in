@@ -1,0 +1,17 @@
+C:\VST_SDK\vst3sdk\public.sdk\source\common\pluginview.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\pluginview.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\main\pluginfactory.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\pluginfactory.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\main\moduleinit.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\moduleinit.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\utility\dataexchange.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\dataexchange.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\utility\stringconvert.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\stringconvert.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\utility\systemtime.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\systemtime.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\utility\testing.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\testing.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\utility\vst2persistence.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\vst2persistence.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\vstaudioeffect.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\vstaudioeffect.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\vstbus.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\vstbus.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\vstcomponent.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\vstcomponent.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\vstcomponentbase.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\vstcomponentbase.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\vsteditcontroller.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\vsteditcontroller.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\vstinitiids.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\vstinitiids.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\vstnoteexpressiontypes.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\vstnoteexpressiontypes.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\vstparameters.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\vstparameters.obj
+C:\VST_SDK\vst3sdk\public.sdk\source\vst\vstrepresentation.cpp;C:\Code\Plug-in\VST3\build\VST3_SDK\public.sdk\sdk.dir\Release\vstrepresentation.obj
