@@ -1,0 +1,55 @@
+=== INSTALACIÓN EN macOS ===
+
+⚠️ REQUISITO OBLIGATORIO: VST3 SDK
+
+1. DESCARGAR VST3 SDK (OBLIGATORIO):
+   - Ve a: https://developer.steinberg.help/display/VST
+   - Regístrate gratuitamente
+   - Descarga "VST 3 SDK"
+   - Extrae a: ~/VST_SDK/vst3sdk/
+   
+   La estructura debe ser:
+   ~/VST_SDK/vst3sdk/
+   ├── base/
+   ├── pluginterfaces/
+   ├── public.sdk/
+   └── ...
+
+2. INSTALAR HERRAMIENTAS:
+   - Xcode 12+ (desde App Store)
+   - Command Line Tools: xcode-select --install
+   - CMake: brew install cmake
+
+3. COMPILAR EL PLUGIN:
+   - Abre Terminal
+   - Navega a esta carpeta
+   - Ejecuta:
+     chmod +x build.sh
+     ./build.sh
+
+4. INSTALACIÓN AUTOMÁTICA:
+   El plugin se instalará en:
+   /Library/Audio/Plug-Ins/VST3/
+
+5. USAR EN DAW:
+   - Reinicia tu DAW (Logic Pro X, REAPER, etc.)
+   - El plugin aparecerá como "FilterVST3"
+
+CARACTERÍSTICAS EN MAC:
+- ✅ Soporte Intel (x86_64) y Apple Silicon (arm64)
+- ✅ Universal Binary automático
+- ✅ Compatible con todos los DAWs VST3
+
+TROUBLESHOOTING:
+❌ Error "VST3 SDK not found":
+   - Verifica que el SDK esté en ~/VST_SDK/vst3sdk/
+   - Descarga el SDK desde Steinberg Developer Portal
+
+❌ Error "CMake not found":
+   - Ejecuta: brew install cmake
+
+❌ Error de permisos:
+   - Ejecuta: sudo ./build.sh
+
+❌ Xcode no instalado:
+   - Instala Xcode desde App Store 
