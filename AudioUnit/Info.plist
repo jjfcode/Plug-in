@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    
+    <key>CFBundleExecutable</key>
+    <string>FilterAudioUnit</string>
+    
+    <key>CFBundleIdentifier</key>
+    <string>com.demo.audiounit.filter</string>
+    
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    
+    <key>CFBundleName</key>
+    <string>Filter Audio Unit</string>
+    
+    <key>CFBundlePackageType</key>
+    <string>BNDL</string>
+    
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    
+    <key>CFPlugInDynamicRegistration</key>
+    <string>NO</string>
+    
+    <key>CFPlugInFactories</key>
+    <dict>
+        <key>Filter Audio Unit Factory</key>
+        <string>FilterAudioUnitEntry</string>
+    </dict>
+    
+    <key>CFPlugInTypes</key>
+    <dict>
+        <key>8C5E8B7A-B6E1-4E6A-AA37-E6FFB8F7E95D</key>
+        <array>
+            <string>Filter Audio Unit Factory</string>
+        </array>
+    </dict>
+    
+    <key>CFPlugInUnloadFunction</key>
+    <string></string>
+    
+    <key>AudioComponents</key>
+    <array>
+        <dict>
+            <key>type</key>
+            <string>aufx</string>
+            
+            <key>subtype</key>
+            <string>Fltr</string>
+            
+            <key>manufacturer</key>
+            <string>Demo</string>
+            
+            <key>name</key>
+            <string>Demo: Filter</string>
+            
+            <key>description</key>
+            <string>Low Pass and High Pass Filter</string>
+            
+            <key>version</key>
+            <integer>65536</integer>
+            
+            <key>factoryFunction</key>
+            <string>FilterAudioUnitEntry</string>
+            
+            <key>sandboxSafe</key>
+            <true/>
+            
+            <key>resourceUsage</key>
+            <dict>
+                <key>network.client</key>
+                <false/>
+                <key>temporary-exception.files.absolute-path.read-only</key>
+                <array/>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
