@@ -63,6 +63,34 @@ tresult FilterVST3::setupProcessing(ProcessSetup& newSetup)
 
 tresult FilterVST3::process(ProcessData& data)
 {
+    // Handle parameter changes
+    if (data.inputParameterChanges)
+    {
+        int32 numParamsChanged = data.inputParameterChanges->getParameterCount();
+        for (int32 i = 0; i < numParamsChanged; i++)
+        {
+            IParamValueQueue* paramQueue = data.inputParameterChanges->getParameterData(i);
+            if (paramQueue)
+            {
+                ParamValue value;
+                int32 sampleOffset;
+                int32 numPoints = paramQueue->getPointCount();
+                if (paramQueue->getPoint(numPoints - 1, sampleOffset, value) == kResultTrue)
+                {
+                    switch (paramQueue->getParameterId())
+                    {
+                        case kFilterTypeId:
+                            m_filterType = (int)value;
+                            break;
+                        case kCutoffFreqId:
+                            m_cutoffFreq = value;
+                            break;
+                    }
+                }
+            }
+        }
+    }
+
     // Process audio
     if (data.numInputs > 0 && data.numOutputs > 0)
     {

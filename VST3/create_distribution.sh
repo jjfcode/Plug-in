@@ -137,4 +137,16 @@ echo "1. Comprime la carpeta $DIST_DIR"
 echo "2. Envía a usuarios de Windows, Mac y Linux"
 echo "3. Cada usuario compilará en su plataforma"
 echo ""
-echo "=========================================" 
+echo "========================================="
+
+# Create VST3 folder if it doesn't exist
+mkdir "%USERPROFILE%\AppData\Local\Programs\Common\VST3"
+
+# Copy the entire plugin folder
+xcopy "build\VST3\Release\FilterVST3.vst3" "%USERPROFILE%\AppData\Local\Programs\Common\VST3\" /E /I /Y
+
+# Check if plugin exists
+dir "%USERPROFILE%\AppData\Local\Programs\Common\VST3\FilterVST3.vst3" 
+
+# Just run the build script - it copies automatically
+build.bat 

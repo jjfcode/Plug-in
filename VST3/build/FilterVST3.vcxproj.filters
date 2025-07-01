@@ -4,9 +4,15 @@
     <ClCompile Include="C:\Code\Plug-in\VST3\FilterVST3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Code\Plug-in\VST3\FilterVST3Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Code\Plug-in\VST3\FilterVST3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Code\Plug-in\VST3\FilterVST3Controller.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

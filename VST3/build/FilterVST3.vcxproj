@@ -617,6 +617,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClInclude Include="C:\Code\Plug-in\VST3\FilterVST3.h" />
     <ClCompile Include="C:\Code\Plug-in\VST3\FilterVST3.cpp" />
+    <ClInclude Include="C:\Code\Plug-in\VST3\FilterVST3Controller.h" />
+    <ClCompile Include="C:\Code\Plug-in\VST3\FilterVST3Controller.cpp" />
     <ResourceCompile Include="C:\Code\Plug-in\VST3\resource\FilterVST3.rc" />
   </ItemGroup>
   <ItemGroup />

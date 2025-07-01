@@ -240,8 +240,8 @@ class AudioFilterPlugin:
         # Frequency slider
         self.freq_slider = tk.Scale(
             freq_frame,
-            from_=50,
-            to=8000,
+            from_=20,
+            to=20000,
             orient=tk.HORIZONTAL,
             command=self.update_cutoff_frequency,
             bg='#34495e',

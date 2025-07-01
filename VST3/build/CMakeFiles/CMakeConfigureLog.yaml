@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.14+a129329f1 for .NET Framework
-      Build started 7/1/2025 3:20:09 PM.
+      Build started 7/1/2025 6:36:06 PM.
       
       Project "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\4.0.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:02.02
+      Time Elapsed 00:00:00.56
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.14+a129329f1 for .NET Framework
-      Build started 7/1/2025 3:20:12 PM.
+      Build started 7/1/2025 6:36:07 PM.
       
       Project "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.61
+      Time Elapsed 00:00:00.57
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-td09m4"
-      binary: "C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-td09m4"
+      source: "C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-2wii0i"
+      binary: "C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-2wii0i"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-td09m4'
+        Change Dir: 'C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-2wii0i'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_08070.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dae28.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.14+a129329f1 for .NET Framework
-        Build started 7/1/2025 3:20:14 PM.
+        Build started 7/1/2025 6:36:08 PM.
         
-        Project "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-td09m4\\cmTC_08070.vcxproj" on node 1 (default targets).
+        Project "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wii0i\\cmTC_dae28.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_08070.dir\\Debug\\".
+          Creating directory "cmTC_dae28.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-td09m4\\Debug\\".
-          Creating directory "cmTC_08070.dir\\Debug\\cmTC_08070.tlog\\".
+          Creating directory "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wii0i\\Debug\\".
+          Creating directory "cmTC_dae28.dir\\Debug\\cmTC_dae28.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_08070.dir\\Debug\\cmTC_08070.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_08070.dir\\Debug\\cmTC_08070.tlog\\unsuccessfulbuild".
+          Creating "cmTC_dae28.dir\\Debug\\cmTC_dae28.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_dae28.dir\\Debug\\cmTC_dae28.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08070.dir\\Debug\\\\" /Fd"cmTC_08070.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dae28.dir\\Debug\\\\" /Fd"cmTC_dae28.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08070.dir\\Debug\\\\" /Fd"cmTC_08070.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dae28.dir\\Debug\\\\" /Fd"cmTC_dae28.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-td09m4\\Debug\\cmTC_08070.exe" /INCREMENTAL /ILK:"cmTC_08070.dir\\Debug\\cmTC_08070.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-td09m4/Debug/cmTC_08070.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-td09m4/Debug/cmTC_08070.lib" /MACHINE:X64  /machine:x64 cmTC_08070.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_08070.vcxproj -> C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-td09m4\\Debug\\cmTC_08070.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wii0i\\Debug\\cmTC_dae28.exe" /INCREMENTAL /ILK:"cmTC_dae28.dir\\Debug\\cmTC_dae28.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-2wii0i/Debug/cmTC_dae28.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-2wii0i/Debug/cmTC_dae28.lib" /MACHINE:X64  /machine:x64 cmTC_dae28.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_dae28.vcxproj -> C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wii0i\\Debug\\cmTC_dae28.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_08070.dir\\Debug\\cmTC_08070.tlog\\unsuccessfulbuild".
-          Touching "cmTC_08070.dir\\Debug\\cmTC_08070.tlog\\cmTC_08070.lastbuildstate".
-        Done Building Project "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-td09m4\\cmTC_08070.vcxproj" (default targets).
+          Deleting file "cmTC_dae28.dir\\Debug\\cmTC_dae28.tlog\\unsuccessfulbuild".
+          Touching "cmTC_dae28.dir\\Debug\\cmTC_dae28.tlog\\cmTC_dae28.lastbuildstate".
+        Done Building Project "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2wii0i\\cmTC_dae28.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.46
+        Time Elapsed 00:00:00.58
         
       exitCode: 0
   -
@@ -210,8 +210,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-en9qzd"
-      binary: "C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-en9qzd"
+      source: "C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-bpoyrg"
+      binary: "C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-bpoyrg"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -221,40 +221,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-en9qzd'
+        Change Dir: 'C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-bpoyrg'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4b020.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_28975.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.14+a129329f1 for .NET Framework
-        Build started 7/1/2025 3:20:16 PM.
+        Build started 7/1/2025 6:36:09 PM.
         
-        Project "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-en9qzd\\cmTC_4b020.vcxproj" on node 1 (default targets).
+        Project "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bpoyrg\\cmTC_28975.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_4b020.dir\\Debug\\".
+          Creating directory "cmTC_28975.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-en9qzd\\Debug\\".
-          Creating directory "cmTC_4b020.dir\\Debug\\cmTC_4b020.tlog\\".
+          Creating directory "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bpoyrg\\Debug\\".
+          Creating directory "cmTC_28975.dir\\Debug\\cmTC_28975.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_4b020.dir\\Debug\\cmTC_4b020.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_4b020.dir\\Debug\\cmTC_4b020.tlog\\unsuccessfulbuild".
+          Creating "cmTC_28975.dir\\Debug\\cmTC_28975.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_28975.dir\\Debug\\cmTC_28975.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4b020.dir\\Debug\\\\" /Fd"cmTC_4b020.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_28975.dir\\Debug\\\\" /Fd"cmTC_28975.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4b020.dir\\Debug\\\\" /Fd"cmTC_4b020.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_28975.dir\\Debug\\\\" /Fd"cmTC_28975.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-en9qzd\\Debug\\cmTC_4b020.exe" /INCREMENTAL /ILK:"cmTC_4b020.dir\\Debug\\cmTC_4b020.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-en9qzd/Debug/cmTC_4b020.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-en9qzd/Debug/cmTC_4b020.lib" /MACHINE:X64  /machine:x64 cmTC_4b020.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_4b020.vcxproj -> C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-en9qzd\\Debug\\cmTC_4b020.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bpoyrg\\Debug\\cmTC_28975.exe" /INCREMENTAL /ILK:"cmTC_28975.dir\\Debug\\cmTC_28975.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-bpoyrg/Debug/cmTC_28975.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-bpoyrg/Debug/cmTC_28975.lib" /MACHINE:X64  /machine:x64 cmTC_28975.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_28975.vcxproj -> C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bpoyrg\\Debug\\cmTC_28975.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_4b020.dir\\Debug\\cmTC_4b020.tlog\\unsuccessfulbuild".
-          Touching "cmTC_4b020.dir\\Debug\\cmTC_4b020.tlog\\cmTC_4b020.lastbuildstate".
-        Done Building Project "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-en9qzd\\cmTC_4b020.vcxproj" (default targets).
+          Deleting file "cmTC_28975.dir\\Debug\\cmTC_28975.tlog\\unsuccessfulbuild".
+          Touching "cmTC_28975.dir\\Debug\\cmTC_28975.tlog\\cmTC_28975.lastbuildstate".
+        Done Building Project "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bpoyrg\\cmTC_28975.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.45
+        Time Elapsed 00:00:00.56
         
       exitCode: 0
   -
@@ -285,10 +285,6 @@ events:
       Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.44.35211.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
-...
-
----
-events:
   -
     kind: "try_compile-v1"
     backtrace:
@@ -298,8 +294,8 @@ events:
     checks:
       - "Performing Test SMTG_USE_STDATOMIC_H"
     directories:
-      source: "C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-65ujl9"
-      binary: "C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-65ujl9"
+      source: "C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-mg6749"
+      binary: "C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-mg6749"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -310,54 +306,54 @@ events:
       variable: "SMTG_USE_STDATOMIC_H"
       cached: true
       stdout: |
-        Change Dir: 'C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-65ujl9'
+        Change Dir: 'C:/Code/Plug-in/VST3/build/CMakeFiles/CMakeScratch/TryCompile-mg6749'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_137a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cef0e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.14+a129329f1 for .NET Framework
-        Build started 7/1/2025 3:22:14 PM.
+        Build started 7/1/2025 6:36:10 PM.
         
-        Project "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\cmTC_137a6.vcxproj" on node 1 (default targets).
+        Project "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\cmTC_cef0e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_137a6.dir\\Debug\\".
+          Creating directory "cmTC_cef0e.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\Debug\\".
-          Creating directory "cmTC_137a6.dir\\Debug\\cmTC_137a6.tlog\\".
+          Creating directory "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\Debug\\".
+          Creating directory "cmTC_cef0e.dir\\Debug\\cmTC_cef0e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_137a6.dir\\Debug\\cmTC_137a6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_137a6.dir\\Debug\\cmTC_137a6.tlog\\unsuccessfulbuild".
+          Creating "cmTC_cef0e.dir\\Debug\\cmTC_cef0e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_cef0e.dir\\Debug\\cmTC_cef0e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SMTG_USE_STDATOMIC_H /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_137a6.dir\\Debug\\\\" /Fd"cmTC_137a6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\src.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SMTG_USE_STDATOMIC_H /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cef0e.dir\\Debug\\\\" /Fd"cmTC_cef0e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35211 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SMTG_USE_STDATOMIC_H /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_137a6.dir\\Debug\\\\" /Fd"cmTC_137a6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\src.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SMTG_USE_STDATOMIC_H /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cef0e.dir\\Debug\\\\" /Fd"cmTC_cef0e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\src.cxx"
           src.cxx
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\__msvc_cxx_stdatomic.hpp(24): warning STL4038: The contents of <stdatomic.h> are available only with C++23 or later. [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\cmTC_137a6.vcxproj]
-        C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\src.cxx(3,2): error C2065: 'atomic_int_least32_t': undeclared identifier [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\cmTC_137a6.vcxproj]
-        C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\src.cxx(3,23): error C2146: syntax error: missing ';' before identifier 'value' [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\cmTC_137a6.vcxproj]
-        C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\src.cxx(3,23): error C2065: 'value': undeclared identifier [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\cmTC_137a6.vcxproj]
-        C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\src.cxx(4,21): error C2065: 'value': undeclared identifier [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\cmTC_137a6.vcxproj]
-        C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\src.cxx(4,2): error C3861: 'atomic_fetch_add': identifier not found [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\cmTC_137a6.vcxproj]
-        Done Building Project "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\cmTC_137a6.vcxproj" (default targets) -- FAILED.
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\__msvc_cxx_stdatomic.hpp(24): warning STL4038: The contents of <stdatomic.h> are available only with C++23 or later. [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\cmTC_cef0e.vcxproj]
+        C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\src.cxx(3,2): error C2065: 'atomic_int_least32_t': undeclared identifier [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\cmTC_cef0e.vcxproj]
+        C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\src.cxx(3,23): error C2146: syntax error: missing ';' before identifier 'value' [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\cmTC_cef0e.vcxproj]
+        C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\src.cxx(3,23): error C2065: 'value': undeclared identifier [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\cmTC_cef0e.vcxproj]
+        C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\src.cxx(4,21): error C2065: 'value': undeclared identifier [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\cmTC_cef0e.vcxproj]
+        C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\src.cxx(4,2): error C3861: 'atomic_fetch_add': identifier not found [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\cmTC_cef0e.vcxproj]
+        Done Building Project "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\cmTC_cef0e.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\cmTC_137a6.vcxproj" (default target) (1) ->
+        "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\cmTC_cef0e.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\__msvc_cxx_stdatomic.hpp(24): warning STL4038: The contents of <stdatomic.h> are available only with C++23 or later. [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\cmTC_137a6.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\__msvc_cxx_stdatomic.hpp(24): warning STL4038: The contents of <stdatomic.h> are available only with C++23 or later. [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\cmTC_cef0e.vcxproj]
         
         
-        "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\cmTC_137a6.vcxproj" (default target) (1) ->
+        "C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\cmTC_cef0e.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\src.cxx(3,2): error C2065: 'atomic_int_least32_t': undeclared identifier [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\cmTC_137a6.vcxproj]
-          C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\src.cxx(3,23): error C2146: syntax error: missing ';' before identifier 'value' [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\cmTC_137a6.vcxproj]
-          C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\src.cxx(3,23): error C2065: 'value': undeclared identifier [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\cmTC_137a6.vcxproj]
-          C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\src.cxx(4,21): error C2065: 'value': undeclared identifier [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\cmTC_137a6.vcxproj]
-          C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\src.cxx(4,2): error C3861: 'atomic_fetch_add': identifier not found [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-65ujl9\\cmTC_137a6.vcxproj]
+          C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\src.cxx(3,2): error C2065: 'atomic_int_least32_t': undeclared identifier [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\cmTC_cef0e.vcxproj]
+          C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\src.cxx(3,23): error C2146: syntax error: missing ';' before identifier 'value' [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\cmTC_cef0e.vcxproj]
+          C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\src.cxx(3,23): error C2065: 'value': undeclared identifier [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\cmTC_cef0e.vcxproj]
+          C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\src.cxx(4,21): error C2065: 'value': undeclared identifier [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\cmTC_cef0e.vcxproj]
+          C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\src.cxx(4,2): error C3861: 'atomic_fetch_add': identifier not found [C:\\Code\\Plug-in\\VST3\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mg6749\\cmTC_cef0e.vcxproj]
         
             1 Warning(s)
             5 Error(s)
         
-        Time Elapsed 00:00:01.44
+        Time Elapsed 00:00:00.36
         
       exitCode: 1
 ...
